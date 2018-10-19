@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -158,8 +158,6 @@
 <pin name="+9V" x="5.08" y="-4.064" length="middle" rot="R90"/>
 <pin name="LED" x="2.54" y="-4.064" length="middle" rot="R90"/>
 <pin name="G" x="7.62" y="-4.064" length="middle" rot="R90"/>
-<text x="-1.016" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-0.762" y="-8.128" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -183,10 +181,9 @@
 </deviceset>
 <deviceset name="BOARDLINK">
 <gates>
-<gate name="G$1" symbol="BOARDLINK" x="-10.16" y="-20.32"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="SQUARE">
 <technologies>
 <technology name=""/>
 </technologies>
