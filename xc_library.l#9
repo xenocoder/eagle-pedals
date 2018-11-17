@@ -158,6 +158,8 @@
 <pin name="+9V" x="5.08" y="-4.064" length="middle" rot="R90"/>
 <pin name="LED" x="2.54" y="-4.064" length="middle" rot="R90"/>
 <pin name="G" x="7.62" y="-4.064" length="middle" rot="R90"/>
+<text x="-1.016" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.762" y="-8.128" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
