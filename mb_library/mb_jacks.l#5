@@ -669,7 +669,7 @@
 <wire x1="-1.524" y1="12.954" x2="-1.778" y2="13.208" width="0.127" layer="51"/>
 <wire x1="-1.778" y1="13.208" x2="-2.286" y2="13.716" width="0.127" layer="51"/>
 <wire x1="-1.778" y1="13.208" x2="-1.016" y2="13.716" width="0.127" layer="51"/>
-<text x="7.62" y="-2.54" size="1.27" layer="25" ratio="12" rot="R90">&gt;NAME</text>
+<text x="6.223" y="-0.635" size="1.27" layer="25" ratio="12" rot="R180">&gt;NAME</text>
 <rectangle x1="7.62" y1="6.35" x2="8.89" y2="13.97" layer="51"/>
 <rectangle x1="12.7" y1="6.35" x2="13.97" y2="13.97" layer="51"/>
 <pad name="R1" x="10.5" y="18.1" drill="0.8" diameter="1.9304" shape="long"/>

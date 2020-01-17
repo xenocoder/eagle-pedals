@@ -699,6 +699,21 @@
 <wire x1="-4" y1="14.25" x2="-4" y2="5.75" width="0.254" layer="21"/>
 <text x="27.5" y="7.6" size="1.27" layer="21" rot="R90">INPUT</text>
 </package>
+<package name="BLMSJ6HC-S-PLAIN">
+<text x="6.223" y="-0.635" size="1.27" layer="25" ratio="12" rot="R180">&gt;NAME</text>
+<pad name="R1" x="10.5" y="18.1" drill="0.8" diameter="1.9304" shape="long"/>
+<pad name="RN1" x="10.5" y="1.9" drill="0.8" diameter="1.9304" shape="long"/>
+<pad name="SN1" x="16.8" y="1.9" drill="0.8" diameter="1.9304" shape="long"/>
+<pad name="TSW1" x="4.2" y="1.9" drill="0.8" diameter="1.9304" shape="long"/>
+<pad name="T1" x="4.2" y="18.1" drill="0.8" diameter="1.9304" shape="long"/>
+<pad name="S1" x="16.8" y="18.1" drill="0.8" diameter="1.9304" shape="long"/>
+<text x="3.715" y="15.515" size="1.27" layer="21" font="vector" ratio="12">T</text>
+<text x="10.065" y="15.615" size="1.27" layer="21" font="vector" ratio="12">R</text>
+<text x="16.315" y="15.615" size="1.27" layer="21" font="vector" ratio="12">S</text>
+<text x="2.08" y="3.115" size="1.27" layer="21" font="vector" ratio="12">T-SW</text>
+<text x="8.43" y="3.115" size="1.27" layer="21" font="vector" ratio="12">R-SW</text>
+<text x="14.68" y="3.115" size="1.27" layer="21" font="vector" ratio="12">S-SW</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STEREOJACK">

@@ -1087,6 +1087,7 @@
 </devices>
 </deviceset>
 <deviceset name="BLMS-STEREO-SW">
+<description>BLMS 1/4" Stereo Switched jack with 20mm body</description>
 <gates>
 <gate name="G$1" symbol="STEREOJACKSW" x="-8.932946875" y="23.2337625"/>
 </gates>

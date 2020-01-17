@@ -49,7 +49,7 @@
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
@@ -1088,9 +1088,18 @@
 </deviceset>
 <deviceset name="BLMS-STEREO-SW">
 <gates>
+<gate name="G$1" symbol="STEREOJACKSW" x="-8.932946875" y="23.2337625"/>
 </gates>
 <devices>
 <device name="" package="BLMSJ6HC-S">
+<connects>
+<connect gate="G$1" pin="R" pad="R1"/>
+<connect gate="G$1" pin="RN" pad="RN1"/>
+<connect gate="G$1" pin="S" pad="S1"/>
+<connect gate="G$1" pin="SN" pad="SN1"/>
+<connect gate="G$1" pin="T" pad="T1"/>
+<connect gate="G$1" pin="TN" pad="TSW1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
