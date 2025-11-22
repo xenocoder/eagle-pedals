@@ -277,6 +277,20 @@ grid 2.54 mm</description>
 <text x="-7.366" y="0.381" size="1.27" layer="25" ratio="12">&gt;NAME</text>
 <text x="-7.493" y="-1.27" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
 </package>
+<package name="JACKLINK">
+<wire x1="-3.556" y1="-1.016" x2="-3.556" y2="2.921" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-3.556" y1="2.921" x2="3.81" y2="2.921" width="0.127" layer="21" style="shortdash"/>
+<wire x1="3.81" y1="2.921" x2="3.81" y2="-1.016" width="0.127" layer="21" style="shortdash"/>
+<wire x1="3.81" y1="-1.016" x2="-3.556" y2="-1.016" width="0.127" layer="21" style="shortdash"/>
+<pad name="T" x="2.54" y="0" drill="1" diameter="2" shape="square"/>
+<pad name="R" x="0" y="0" drill="1" diameter="2"/>
+<pad name="S" x="-2.54" y="0" drill="1" diameter="2" shape="octagon"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="-2.794" y="1.397" size="1.27" layer="21">S</text>
+<text x="-0.508" y="1.397" size="1.27" layer="21">R</text>
+<text x="2.032" y="1.397" size="1.27" layer="21">T</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SOT23">
@@ -466,6 +480,18 @@ grid 2.54 mm</description>
 <pin name="16" x="7.62" y="-2.54" length="short" rot="R90"/>
 <text x="7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="JACKLINK">
+<description>Part to connect mother and daughterboards</description>
+<wire x1="0" y1="1.016" x2="5.08" y2="1.016" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.016" x2="5.08" y2="3.048" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="0" y2="1.016" width="0.254" layer="94"/>
+<pin name="S" x="0" y="-4.064" length="middle" rot="R90"/>
+<pin name="T" x="5.08" y="-4.064" length="middle" rot="R90"/>
+<pin name="R" x="2.54" y="-4.064" length="middle" rot="R90"/>
+<text x="-1.016" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.762" y="-8.128" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -784,6 +810,23 @@ Marquardt</description>
 <connect gate="G$2" pin="15" pad="15"/>
 <connect gate="G$2" pin="16" pad="16"/>
 <connect gate="G$2" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JACKLINK">
+<gates>
+<gate name="G$1" symbol="JACKLINK" x="2.54" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="JACKLINK">
+<connects>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="T" pad="T"/>
 </connects>
 <technologies>
 <technology name=""/>
