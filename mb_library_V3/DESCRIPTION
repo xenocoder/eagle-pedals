@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="images/wtf.jpg">
+<h1>madbeanpedals library</h1>
+<br>
+Schematic Grid: Size = 50mil, Mult = 2
+<br>
+Layout Grid: Size = 25mil, Mult = 4
+<br>
+<h3>v.3 update: March 21, 2017</h3>
+<h4>v3 is a ground-up re-organization and redesign of many library elements</h4>
+<ul>
+<li>v3 is not 100% compatible with previous versions of the MBP library.
+<li>You should keep your older MBP library if you have used it to design PCBs. This will ensure you can easily make changes to those boards without compatibility issues.
+<li>For new designs, use the v3 library. It's awesome!
+<li>Parts now have accurate descriptions and in many cases are linked to vendors. Smallbear is the default, but some parts are linked to Mouser.
+<li>Some parts have been re-designed and streamlined. Most of the extraneous junk has been deleted.
+<li>The library is far more consistent and should be much easier to use.
+<li>Questions or comments should be posted in the Eagle Resources section of the MBP forum: <a href="http://www.madbeanpedals.com/forum/index.php?board=45.0">http://www.madbeanpedals.com/forum/index.php?board=45.0</a>
+</li>
+</body>
+</html>
